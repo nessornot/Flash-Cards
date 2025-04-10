@@ -1,0 +1,175 @@
+@use '../../styles/main' as vars;
+
+.learnset{
+
+}
+
+.learnset__row{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.learnset__content{
+  margin-top: 1rem;
+
+  //width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnset__column{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.learnset__title{
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: vars.$mainBlack;
+}
+
+.learnset__intro{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.set__title{
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: vars.$mainBlue;
+
+  margin: 1.4rem 0 2.4rem 0;
+}
+
+.set__shuffle{
+  width: 2.8rem;
+  height: 2.5rem;
+
+  background-color: #ececf3;
+  border-radius: 0.6rem;
+
+  img{
+    width: 2rem;
+    height: 1.8rem;
+  }
+}
+
+.set__shuffle:hover{
+  transition: background-color 0.1s ease;
+  background-color: rgba(0,0,0, 0.15);
+}
+
+.learnset__card{
+  width: 58rem;
+  height: 30rem;
+
+  border-radius: 0.6rem;
+  //background-color: #ececf3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  font-size: clamp(2.7rem, 2vw, 28px);
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  //font-size: 2.7rem;
+  font-weight: 800;
+  color: vars.$mainBlack;
+  text-align: center;
+
+  position: relative;
+  perspective: 1000px; /* создаёт 3D эффект */
+  cursor: pointer;
+}
+
+.learnset__card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.learnset__card.flipped .learnset__card-inner {
+  transform: rotateY(180deg);
+}
+
+.learnset__card-front,
+.learnset__card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.learnset__card-back {
+  transform: rotateY(180deg);
+}
+
+// ---------------------------------------------------------
+
+.learnset__nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnset__arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem;
+
+  width: 3.4rem;
+  height: 3.4rem;
+
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 10.6px 0 rgba(0, 0, 0, 0.25);
+}
+
+.learnset__arrow:hover{
+  transition: background-color 0.1s ease;
+  background-color: rgba(0,0,0, 0.05);
+}
+
+.learnset__count{
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: vars.$mainBlack;
+}
+
+.cardsset__column{
+  height: 100%;
+
+  margin-right: 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.cardsset__img{
+  margin: 0.5rem;
+}
+
+.cardsset__btn{
+
+}

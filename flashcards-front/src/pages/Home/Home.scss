@@ -1,0 +1,66 @@
+@use '../../styles/main' as vars;
+
+//.home{
+//  background-color: #b4cffa;
+//}
+
+.home__content__column{
+  height: 80vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__descriptor{
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: vars.$mainGray;
+}
+
+.home__title{
+  font-weight: 900;
+  font-size: 6rem;
+  color: vars.$mainBlue;
+
+  margin: 3.7rem 0 1.8rem 0;
+}
+
+.home__pretitle{
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: vars.$mainBlack;
+}
+
+.home__register{
+  width: 22rem;
+  height: 5.5rem;
+
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 10.6px 0 rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 3.4rem 0 1.6rem 0;
+
+  &__title{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: vars.$mainBlue;
+  }
+}
+
+.home__register:hover{
+  transition: background-color 0.1s ease;
+  background-color: rgba(0,0,0,0.03);
+}
+
+.home__auth{
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: vars.$mainGray;
+}
+

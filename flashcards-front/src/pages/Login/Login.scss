@@ -1,0 +1,64 @@
+@use '../../styles/main' as vars;
+
+.login__content__column{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 80vh;
+}
+
+.login__title{
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: vars.$mainBlack;
+}
+
+.login__form{
+  margin: 3rem 0 0 0;
+}
+
+.login__form__group{
+  display: flex;
+  flex-flow: column nowrap;
+
+  margin: 1.2rem 0 0 0;
+
+  &__title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: vars.$mainBlack;
+  }
+
+  input{
+    width: 24rem;
+    height: 2.8rem;
+
+    margin: 0.8rem 0 0 0;
+    padding-left: 1.3rem;
+
+    border-radius: 0.6rem;
+    box-shadow: 0 2.03px 5.38px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
+.login__submit{
+  width: 24rem;
+  height: 2.8rem;
+
+  margin: 3.6rem 0 0 0;
+
+  background-color: vars.$mainBlue;
+  border-radius: 0.6rem;
+  box-shadow: 0 2.02px 5.36px 0 rgba(0, 0, 0, 0.25);
+
+  color: vars.$mainWhite;
+}
+
+.login__noAccount{
+  margin: 1.2rem 0 0 0;
+  a{
+    padding: 0 0 0 0.3rem;
+  }
+}

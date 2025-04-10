@@ -1,0 +1,26 @@
+@use '../../styles/main' as vars;
+
+.header{
+  //background-color: #f0f0f0;
+  padding:  1rem;
+}
+
+.header__row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo{
+  height: 50px;
+  width: 100px;
+}
+
+.header__git__title{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: vars.$mainBlue;
+  text-decoration: underline;
+}
+

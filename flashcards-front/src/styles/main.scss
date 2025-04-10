@@ -1,0 +1,14 @@
+@forward 'globals';
+@forward 'reset';
+
+@use 'globals' as vars;
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}

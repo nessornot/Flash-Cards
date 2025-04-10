@@ -1,0 +1,12 @@
+@use '../../styles/main' as vars;
+
+.library__content{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.library__title{
+  font-size: 2rem;
+  color: vars.$mainBlue;
+  font-weight: 700;
+}

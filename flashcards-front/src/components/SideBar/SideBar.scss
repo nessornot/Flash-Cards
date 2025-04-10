@@ -1,0 +1,43 @@
+@use '../../styles/main' as vars;
+
+.sidebar{
+  //background-color: #ffceea;
+  width: 18rem;
+  margin-right: 1rem;
+}
+
+.sidebar__item{
+  width: 16rem;
+  height: 2.7rem;
+
+
+  //border: black 1px solid;
+  border-radius: 0.6rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 1rem;
+
+  img{
+    margin: 0 1.7rem 0 1.1rem;
+  }
+}
+
+.sidebar__item:hover{
+  transition: background-color, 0.15s ease;
+  background-color: #EEF0FF;
+}
+
+#sidebar__exit:hover{
+  transition: background-color, 0.15s ease;
+  background-color: rgba(255,0,0,0.15);
+}
+
+.sidebar__link{
+  color: vars.$mainBlack;
+  font-size: 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,103 @@
+@use '../../styles/main' as vars;
+
+.cardsset{
+  width: 31.1rem;
+  height: 6.2rem;
+
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 10.6px 0 rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1.5rem;
+}
+
+.cardsset:hover{
+  transition: background-color 0.1s ease;
+  background-color: rgba(0,0,0,0.02);
+}
+
+.cardsset__icon{
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-left: 1.8rem;
+
+  border-radius: 0.6rem;
+  background-color: #EEF0FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsset__content{
+  display: flex;
+  flex-flow: column nowrap;
+
+  align-items: flex-start;
+
+  &__title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: vars.$mainBlue;
+  }
+}
+
+.cardsset__title__wrapper{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.cardsset__btn{
+  margin-left: 0.5rem;
+}
+
+.cardsset__row{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 0.3rem;
+
+  font-weight: 600;
+  color: vars.$mainGray;
+  &__item{
+    margin-right: 1.5rem;
+  }
+}
+
+.cardsset__btn{
+  //border: 1px black solid;
+  border-radius: 0.8rem;
+}
+
+.cardsset__btn:hover{
+  background-color: #ccc;
+}
+
+#delete-btn{
+  margin-bottom: 0.1rem;
+}
+
+#delete-btn:hover{
+  transition: background-color 0.15s ease;
+  background-color: rgba(255,0,0,0.1);
+}
+
+#link-btn{
+  width: 20px;
+  height: 20px;
+}
+
+#link-btn:hover{
+  transition: background-color 0.15s ease;
+  background-color: rgba(0,0,255,0.2);
+}
+
+#edit-btn:hover{
+  transition: background-color 0.15s ease;
+  background-color: rgba(0,0,255,0.1);
+}
+

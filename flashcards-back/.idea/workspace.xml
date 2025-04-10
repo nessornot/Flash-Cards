@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1843de1f-4f3f-480f-bf55-23e33a077649" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/handlers/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/handlers/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/img/create.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/build/img/create.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/build/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/377.924978e6.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/377.924978e6.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/527.03381121.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/527.03381121.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/608.8d0e0c89.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/608.8d0e0c89.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/609.937a8598.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/609.937a8598.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/975.931d01ad.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/975.931d01ad.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/main.4393fed1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/css/main.4393fed1.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/377.dba6fda6.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/377.dba6fda6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/527.a33fae52.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/527.a33fae52.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/608.0221e2b2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/608.0221e2b2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/609.987591b5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/609.987591b5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/975.b01ef889.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/975.b01ef889.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/main.fa6211db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/main.fa6211db.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/build/static/js/main.fa6211db.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/components/SideBar/SideBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/components/SideBar/SideBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/pages/CreateSet/CreateSet.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/pages/CreateSet/CreateSet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/pages/LearnSet/LearnSet.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/pages/LearnSet/LearnSet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/pages/Library/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/pages/Library/Library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/pages/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flashcards-front/src/services/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../flashcards-front/src/services/auth.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///opt/homebrew/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2v5ASO2kEREDkkh6WiLrsk3F7A8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build flashcards-back.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/andrejnikonov",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/andrejnikonov/Documents/ness/CourseProject/flashcards-back/main.go"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build flashcards-back" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="flashcards-back" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="flashcards-back" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-d297c17c1fbd-85c80fddc9a6-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.23654.166" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-GO-243.23654.166" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

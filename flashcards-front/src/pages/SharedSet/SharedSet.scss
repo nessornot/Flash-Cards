@@ -1,0 +1,55 @@
+@use '../../styles/main' as vars;
+
+.sharedset__wrapper{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sharedset__content{
+
+}
+
+.set__title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.set__li{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.li__title{
+  color: vars.$mainBlue;
+}
+
+.set__btn{
+  width: 12rem;
+  height: 2.7rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2rem;
+
+  border-radius: 0.6rem;
+  background: linear-gradient(94.97deg, #2199FF 16.76%, #3783FD 77.46%);
+  box-shadow: 0 2.02px 5.36px 0 rgba(0, 0, 0, 0.25);
+
+  color: vars.$mainWhite;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.createset__wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.createset__addcard{
+  color: vars.$mainBlue;
+  font-weight: 600;
+  border-bottom: 3px vars.$mainBlue solid;
+}

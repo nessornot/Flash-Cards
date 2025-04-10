@@ -1,0 +1,69 @@
+@use '../../styles/main' as vars;
+
+.card{
+  max-width: 100%;
+  height: 10rem;
+  padding: 1.6rem;
+  margin: 1rem 0 1rem 0;
+
+  border-radius: 1.2rem;
+  box-shadow: 0 2.03px 5.38px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card__nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+}
+
+.card__index{
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: vars.$mainBlue;
+}
+
+.card__delete{
+  border-radius: 0.6rem;
+
+  height: 35px;
+  width: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //img{
+  //  height: 27px;
+  //  width: 27px;
+  //}
+}
+
+.card__delete:hover{
+  transition: background-color 0.1s ease;
+  background-color: rgba(255,25,0,0.31);
+}
+
+.card__content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  margin-top: 1.5rem;
+}
+
+.card__input__wrapper{
+  width: 47%;
+  display: flex;
+  flex-flow: column nowrap;
+
+  input{
+    border-bottom: vars.$mainBlue 3px solid;
+  }
+}
+
+.card__input__caption{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: vars.$mainBlack;
+}
